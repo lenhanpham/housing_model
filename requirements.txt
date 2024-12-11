@@ -1,6 +1,6 @@
 joblib
 scipy
-sklearn
+scikit-learn
 numpy
 matplotlib
 urllib
