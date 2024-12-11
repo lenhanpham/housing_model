@@ -1,0 +1,9 @@
+joblib
+scipy
+sklearn
+numpy
+matplotlib
+urllib
+tarfile
+pandas
+pathlib
