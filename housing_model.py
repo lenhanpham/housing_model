@@ -5,7 +5,6 @@ import tarfile
 import urllib.request
 import matplotlib.pyplot as plt
 import numpy as np
-import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import root_mean_squared_error
 from sklearn.cluster import KMeans
