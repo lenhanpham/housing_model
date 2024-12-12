@@ -123,7 +123,9 @@ y_test = test_set['median_house_value'].copy()
 y_predictions = rnd_search_model.predict(X_test)
 
 final_rmse = root_mean_squared_error(y_test, y_predictions)
-print(final_rmse)
+with open('metrics.txt', 'w') as metrics:
+  metrics.write(f'Root mean squared error (model on test set): {final_rmse} \n \
+  Best parameter: {rnd_Search.best_params_}')
 
 ## Save the trained model with joblib
 
