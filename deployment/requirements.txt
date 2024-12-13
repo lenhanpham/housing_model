@@ -1,0 +1,10 @@
+Flask==3.0.3
+Jinja2==3.1.4 
+gunicorn==23.0.0 
+certifi==2024.8.30 
+itsdangerous==2.2.0 
+joblib==1.4.2
+pandas==2.2.2
+scikit-learn==1.5.2
+numpy==1.26.4
+scipy==1.13.1 
