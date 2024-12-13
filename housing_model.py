@@ -3,7 +3,6 @@ from pathlib import Path
 import pandas as pd
 import tarfile
 import urllib.request
-import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import root_mean_squared_error
